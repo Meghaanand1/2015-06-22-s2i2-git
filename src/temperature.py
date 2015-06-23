@@ -14,10 +14,7 @@ def k_to_c(temp):
 
 
 def f_to_c(temp):
-	temp_k = f_to_k(temp)
-	result = k_to_c(temp_k)
-	return result
-
+   return f_to_k(f_to_c(temp))
 
 print  f_to_k(32)
 print f_to_k(212) 
